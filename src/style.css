@@ -1,15 +1,16 @@
 body {
   font-family: "Segoe UI", sans-serif;
-  background: #c0d4ca52;
   text-align: center;
+  background: linear-gradient(180deg, rgb(150, 195, 255), rgb(255, 255, 185)) fixed;
+  
 }
 
 .container {
-  margin: 120px auto;
   max-width: 600px;
+  margin: 120px auto;  
 }
 a {
-    color: hsl(155, 65%, 30%);
+  color: hsl(155, 65%, 30%);
 }
 header {
   margin-bottom: 30px;
@@ -28,15 +29,14 @@ h1 {
   padding: 30px;
   text-align: left;
 }
-form { 
-  display: flex;  
+form {
+  display: flex;
 }
 .hint {
   line-height: 1.5;
   margin-top: 7px;
   opacity: 0.6;
   font-size: 12px;
-  
 }
 .text-type {
   padding: 10px;
@@ -55,17 +55,17 @@ form {
   border-radius: 5px;
   padding: 14px 24px;
 }
-.poem {
-  font-size: 16px; 
-  background-color: #fff;  
+.breakfast {
+  font-size: 16px;
+  background-color: #fff;
   padding: 30px;
   text-align: left;
   line-height: 1.8;
   border-left: 3px solid #008f53;
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
 }
-.poem strong {
-  color:#008f53;
+.breakfast strong {
+  color: #008f53;
 }
 .hidden {
   display: none;
@@ -80,7 +80,13 @@ footer {
   animation: blink 1s steps(1, end) infinite;
 }
 @keyframes blink {
-  0% { opacity: 1; }
-  50% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
