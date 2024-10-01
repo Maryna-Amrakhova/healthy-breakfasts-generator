@@ -1,10 +1,8 @@
 body {
   font-family: "Segoe UI", sans-serif;
   text-align: center;
-  background: linear-gradient(180deg, rgb(150, 195, 255), rgb(255, 255, 185)) fixed;
-  
+  background: linear-gradient(180deg, rgb(150, 195, 255), rgb(255, 255, 185)) fixed;  
 }
-
 .container {
   max-width: 600px;
   margin: 120px auto;  

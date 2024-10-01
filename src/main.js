@@ -10,10 +10,6 @@ function displayBreakfast(responce) {
 function generateBreakfast(event) {
   event.preventDefault();
 
-  // build the API URL
-  // make a call to the API (using axios)
-  // display the generated poem
-
   let userInstruction = document.querySelector("#user-context");
   let apiKey = "btf3a0c41c82o04bde5657e178c809b4";
   let prompt = `User instructions: Generate a breakfast with ${userInstruction.value}`;
